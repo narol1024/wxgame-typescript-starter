@@ -10,8 +10,8 @@
 	},
 	"compileType": "game",
 	"libVersion": "2.5.0",
-	"appid": "",
-	"projectname": "musicrun",
+	"appid": "wxbf2b2bc309fdac24",
+	"projectname": "wxgame-typescript-starter",
 	"cloudfunctionRoot": "functions/",
 	"packOptions": [],
 	"condition": {

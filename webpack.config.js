@@ -16,7 +16,7 @@ const config = {
     filename: '[name].js',
   },
   resolve: {
-    extensions: ['.ts'],
+    extensions: ['.ts', '.js'],
     alias: {},
   },
   module: {
