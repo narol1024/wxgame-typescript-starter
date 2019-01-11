@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "declaration": false,
+    "module": "esnext",
+    "target": "es5",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "lib": [
+      "dom",
+      "es5",
+      "es2015",
+      "es2015.promise"
+    ],
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "paths": {}
+  },
+  "include": [
+    "./src/**/*",
+  ],
+  "exclude": [
+    "dist",
+    "node_modules"
+  ],
+  "files": [
+    "./typings/"
+  ]
+}
