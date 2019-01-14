@@ -12,7 +12,6 @@
       "dom",
       "es5",
       "es2015",
-      "es2015.promise"
     ],
     "baseUrl": "./",
     "outDir": "./dist",
