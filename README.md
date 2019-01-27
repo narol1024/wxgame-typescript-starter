@@ -8,7 +8,7 @@
   ```bash
   git clone https://github.com/inarol/wxgame-typescript-starter.git
   ```
-- install node modules
+- install node modules and start
   ```bash
   npm i
   npm start // development mode
