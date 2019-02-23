@@ -9,6 +9,7 @@ const config = {
   mode: devMode ? 'development' : 'production',
   entry: {
     'game': './src/index.ts',
+    'openDataContext/index': './src/openDataContext/index.ts'
   },
   output: {
     path: path.resolve(__dirname, './'),
@@ -35,7 +36,7 @@ const config = {
     }),
     new ForkTsCheckerWebpackPlugin({
       tslint: path.resolve(__dirname, 'tslint.json'),
-      memoryLimit: '4056',
+      memoryLimit: 4056,
       tsconfig: path.resolve(__dirname, 'tsconfig.json'),
     }),
     new HappyPack({
